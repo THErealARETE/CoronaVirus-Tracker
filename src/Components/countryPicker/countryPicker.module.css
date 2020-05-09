@@ -1,0 +1,10 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.formControl {
+    display: flex;
+    align-items: center;
+}

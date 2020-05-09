@@ -1,0 +1,196 @@
+body {
+  background-color: rgb(251, 251, 251);
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.cases-style {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+
+.number-style {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+
+.confirmed-style {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+
+
+.about-style {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  font-weight: 500;
+  padding: 2%;
+  background-color: rgb(71, 224, 110);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 22px;
+}
+
+a:hover {
+  color: rgb(25, 155, 148);
+  text-decoration: wavy;
+}
+
+.position {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+/* .bold {
+  font-weight: 600;
+  font-size: medium;
+  color: rgba(12, 12, 12, 0.801);
+} */
+
+.card {
+  /* width: 10%; */
+  background-color: rgba(129, 236, 161, 0.863);
+  border-top: hsl(180, 62%, 55%) solid 4px;
+  border-radius: 10px;
+  padding: 2%;
+  margin: 40px;
+  box-shadow: 0px 0px 46px -25px rgba(0, 0, 0, 0.76);
+}
+
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
+}
+
+.covid-image {
+  margin-right: 0px;
+  max-width: 10%;
+  height: auto;
+}
+
+.card-image {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.guide-image {
+  display: flex;
+  max-width: 10%;
+  height: auto;
+}
+
+/* {
+  display: flex;
+
+  align-items: flex-end;
+} */
+
+*/ h2 {
+  color: rgba(27, 21, 21, 0.664);
+}
+
+.navBar {
+  width: 100%;
+  background-color: rgb(194, 71, 71);
+  padding: 10px;
+}
+
+.last-part {
+  display: flex;
+  justify-content: center;
+  color: rgba(27, 21, 21, 0.664);
+}
+
+.accordion-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion-button {
+  background-color: #cbd18f7a;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  transition: background-color 0.6s ease;
+}
+
+.accordion-button:hover {
+  background-color: rgba(145, 255, 213, 0.911);
+}
+
+/* .accordion-button:active {
+  background-color: cadetblue;
+} */
+
+
+
+.decoy {
+  background-color: rgb(193, 246, 168);
+}
+
+.accordion-title {
+  font-family: "open sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.accordion-icon {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 10%;
+  height: auto;
+  transition: transform 0.6sec ease;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
+
+.accordion-content {
+  background-color: cornsilk;
+  overflow: hidden;
+  transition: max-height 0.6sec ease;
+}
+
+.accordion-text {
+  font-family: "open sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 18px;
+}
+
+.footer {
+  font-size: 13px;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+}
