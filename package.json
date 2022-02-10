@@ -8,7 +8,7 @@
     "chart.js": "^2.9.3",
     "classnames": "^2.2.6",
     "countup.js": "^2.0.4",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "normalize.css": "^8.0.1",
     "radium": "^0.25.2",
     "react": "^16.13.1",
